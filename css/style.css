@@ -22,7 +22,7 @@
 ul{
     display: inline-flex;
     vertical-align: middle;
-    margin-left: -8%;
+
 
 }
 li{
@@ -254,4 +254,11 @@ li{
 }
 
 
+.logo-social{
+    display: inline-flex;
+    height: 30%;
+}
 
+.logo-single{
+  height: 60%;
+}
