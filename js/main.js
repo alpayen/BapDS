@@ -1,6 +1,22 @@
 (function ($) {
     $(document).ready(function(){
 
+        $(".unslider-nav").hide();
+        console.log( $(window).width());
+
+
+
+        if( $(window).width() < 800){
+            console.log('hey');
+            $(".wrapper-anime").hide();
+            $(".overlay").hide();
+            $(".unslider").hide();
+            $(window).off('scroll');
+        }
+
+
+
+
         // hide .navbar first
         $(".navbar").hide();
         $('.logo-nav').hide();
